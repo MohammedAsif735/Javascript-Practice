@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Use this Keyword</title>
+</head>
+<body>
+    
+    <script>
+        
+        const stu = {
+            name : "asif",
+            age : 23,
+            eng : 89,
+            math : 87,
+            java : 99,
+            getAvg(){
+           let avg = (this.eng + this.math + this.java) / 3;
+            console.log(`${this.name} got avg marks = ${avg}`);
+          }
+        }
+       console.log(stu.getAvg());
+    </script>
+</body>
+</html>
